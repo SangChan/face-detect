@@ -27,6 +27,7 @@
 		6314BC0C160A9A4800DF6064 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6314BC08160A9A4800DF6064 /* CoreImage.framework */; };
 		6314BC0D160A9A4800DF6064 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6314BC09160A9A4800DF6064 /* CoreMedia.framework */; };
 		6314BC0E160A9A4800DF6064 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6314BC0A160A9A4800DF6064 /* CoreVideo.framework */; };
+		6314BC10160AA85900DF6064 /* glasses.png in Resources */ = {isa = PBXBuildFile; fileRef = 6314BC0F160AA85900DF6064 /* glasses.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		6314BC08160A9A4800DF6064 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		6314BC09160A9A4800DF6064 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		6314BC0A160A9A4800DF6064 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		6314BC0F160AA85900DF6064 /* glasses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glasses.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 		6314BBD2160A96EA00DF6064 /* FaceDetect */ = {
 			isa = PBXGroup;
 			children = (
+				6314BC0F160AA85900DF6064 /* glasses.png */,
 				6314BBDB160A96EA00DF6064 /* AppDelegate.h */,
 				6314BBDC160A96EA00DF6064 /* AppDelegate.m */,
 				6314BBE4160A96EA00DF6064 /* MainStoryboard.storyboard */,
@@ -252,6 +255,7 @@
 				6314BBE1160A96EA00DF6064 /* Default@2x.png in Resources */,
 				6314BBE3160A96EA00DF6064 /* Default-568h@2x.png in Resources */,
 				6314BBE6160A96EA00DF6064 /* MainStoryboard.storyboard in Resources */,
+				6314BC10160AA85900DF6064 /* glasses.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
